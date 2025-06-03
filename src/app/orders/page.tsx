@@ -1,4 +1,5 @@
 "use client";
+import React from 'react';
 import OrderForm from "@/components/OrderForm";
 import OrderList from "@/components/OrderList";
 import { FiPackage, FiPlus } from "react-icons/fi";
@@ -47,7 +48,7 @@ export default function OrdersPage() {
             <div className="mb-8 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
               <div className="p-1 bg-gradient-to-r from-indigo-500 to-purple-600"></div>
               <div className="p-6">
-                <OrderForm onSuccess={() => setShowForm(false)} />
+                <OrderForm />
               </div>
             </div>
           )}
