@@ -58,16 +58,16 @@ export default function Header() {
               <span className="mr-1">+</span> Add Customers
             </Link>
             <Link
-              href="/customers"
+              href="/orders"
               className="text-white hover:text-indigo-300 transition-colors font-medium"
             >
-              Customers
+              Orders
             </Link>
             <Link
-              href="/analytics"
+              href="/campaigns"
               className="text-white hover:text-indigo-300 transition-colors font-medium"
             >
-              Analytics
+              Campaigns
             </Link>
             <Link
               href="/settings"

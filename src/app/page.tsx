@@ -76,7 +76,6 @@ const Home = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 font-sans">
-      <Header />
 
       <main className="flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-30">
         {/* Hero Section */}
