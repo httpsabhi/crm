@@ -105,6 +105,7 @@ exports.getCampaignId = async (req, res) => {
   try {
     const logs = await CommunicationLog.find({ campaign: id })
       .populate("customer", "name email")
+      .populate("campaign", "segmentName message rules")
       .sort({ timestamp: -1 });
 
     res.status(200).json({ logs });
