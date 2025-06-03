@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 import SummaryCard from "../components/SummaryCard";
 import Button from "../components/Button";
